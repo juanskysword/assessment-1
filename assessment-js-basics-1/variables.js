@@ -1,17 +1,24 @@
 //////////////////PROBLEM 1////////////////////
 /* Create a variable called 'myName' with a value that is your name as a string. */
-
-//CODE HERE 
-
+{
+  const myName ='Juan';
+  console.log(myName);
+}
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
-//CODE HERE
+{
+  let faveNum ='25';
+    console.log(faveNum);
+}
 
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
-//CODE HERE
+{
+  let lovesCode = true;
+    console.log(lovesCode)
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -19,12 +26,24 @@
   equal to 13. If it is, console.log('lucky 13!'). 
   If it's not, console.log('not lucky 13').
 */
-
-//CODE HERE
-
+{
+let faveNum = 25
+  if (faveNum === 13); {
+    console.log('lucky 13!');
+  }
+  else ; {
+    console.log('not Lucky 13');
+  }
+  console.log(faveNum);
+}
 //////////////////PROBLEM 5////////////////////
 /*
   Write a for loop that prints out your faveNum 5 times.
 */
-
-//CODE HERE
+{
+let i = 25
+for ( var i = 1; i <= 6; i++){
+  console.log("25");
+}
+  console.log(faveNum);
+}
