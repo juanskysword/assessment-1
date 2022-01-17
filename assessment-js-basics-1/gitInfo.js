@@ -18,7 +18,7 @@ var gitDefinition = "open source distributed version control system designed to 
     It should be a string containing your best definition of what GitHub is.
 */
 
-var gitHubDefinition ="is a web-based interface that uses Git, the open source version control software that lets multiple people make separate changes to web pages at the same time"
+var gitHubDefinition = "is a web-based interface that uses Git, the open source version control software that lets multiple people make separate changes to web pages at the same time"
     console.log('gitHub :', gitHubDefinition)
 //////////////////PROBLEM 3////////////////////
 /*

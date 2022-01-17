@@ -26,24 +26,21 @@
   equal to 13. If it is, console.log('lucky 13!'). 
   If it's not, console.log('not lucky 13').
 */
-{
-let faveNum = 25
-  if (faveNum === 13); {
-    console.log('lucky 13!');
+
+let faveNum = 13
+  if (faveNum === 13) {
+    console.log('lucky 13!')
   }
-  else ; {
-    console.log('not Lucky 13');
+ else {
+    console.log('not Lucky 13')
   }
-  console.log(faveNum);
-}
+  console.log(faveNum)
+
 //////////////////PROBLEM 5////////////////////
 /*
   Write a for loop that prints out your faveNum 5 times.
 */
-{
-let i = 25
-for ( var i = 1; i <= 6; i++){
-  console.log("25");
-}
-  console.log(faveNum);
+
+for (let i = 0; i < 4; i++) {
+  console.log(faveNum)
 }
